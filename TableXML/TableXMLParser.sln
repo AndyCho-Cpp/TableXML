@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.902
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TableXMLParser", "TableXMLParser\TableXMLParser.vcxproj", "{0DCBCD1E-1C48-42D0-B28F-EDDCACB06842}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TableXMLLib", "TableXMLLib\TableXMLLib.vcxproj", "{63BB4DCE-CE29-44A2-A0FC-82F79CE9A35D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0DCBCD1E-1C48-42D0-B28F-EDDCACB06842} = {0DCBCD1E-1C48-42D0-B28F-EDDCACB06842}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TableXMLTest", "TableXMLTest\TableXMLTest.vcxproj", "{CF9F3C98-6E44-4A95-9978-3993B8940F44}"
+	ProjectSection(ProjectDependencies) = postProject
+		{63BB4DCE-CE29-44A2-A0FC-82F79CE9A35D} = {63BB4DCE-CE29-44A2-A0FC-82F79CE9A35D}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DCBCD1E-1C48-42D0-B28F-EDDCACB06842}.Debug|x64.ActiveCfg = Debug|x64
+		{0DCBCD1E-1C48-42D0-B28F-EDDCACB06842}.Debug|x64.Build.0 = Debug|x64
+		{0DCBCD1E-1C48-42D0-B28F-EDDCACB06842}.Release|x64.ActiveCfg = Release|x64
+		{0DCBCD1E-1C48-42D0-B28F-EDDCACB06842}.Release|x64.Build.0 = Release|x64
+		{63BB4DCE-CE29-44A2-A0FC-82F79CE9A35D}.Debug|x64.ActiveCfg = Debug|x64
+		{63BB4DCE-CE29-44A2-A0FC-82F79CE9A35D}.Debug|x64.Build.0 = Debug|x64
+		{63BB4DCE-CE29-44A2-A0FC-82F79CE9A35D}.Release|x64.ActiveCfg = Release|x64
+		{63BB4DCE-CE29-44A2-A0FC-82F79CE9A35D}.Release|x64.Build.0 = Release|x64
+		{CF9F3C98-6E44-4A95-9978-3993B8940F44}.Debug|x64.ActiveCfg = Debug|x64
+		{CF9F3C98-6E44-4A95-9978-3993B8940F44}.Debug|x64.Build.0 = Debug|x64
+		{CF9F3C98-6E44-4A95-9978-3993B8940F44}.Release|x64.ActiveCfg = Release|x64
+		{CF9F3C98-6E44-4A95-9978-3993B8940F44}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {45C96C7D-BC1A-439F-9FFA-0E9B8CAF4763}
+	EndGlobalSection
+EndGlobal

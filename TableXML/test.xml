@@ -1,0 +1,18 @@
+<TableXML name="Orders" isPartialTable="false" allowPartialTable="true" version="1.0">
+  
+<Header primaryKey="order_id" foreignKey="customer_sid => customer(sid) update=cascade delete=restrict">
+  <Column name="order_id" type="INTEGER"/>
+  <Column name="order_date" type="DATE"/>
+  <Column name="customer_sid" type="INTEGER" length="5"/>
+  <Column name="amount" type="DOUBLE"/>
+  <Column name="remark" type="STRING" length="100"/>
+</Header>
+
+
+<Rows>
+  <Row order_id="" order_date="" customer_sid="" amount="" remark=""/>
+
+</Rows>
+  
+ 
+</TableXML>
